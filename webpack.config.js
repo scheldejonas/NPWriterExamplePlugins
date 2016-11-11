@@ -20,7 +20,8 @@ console.log(" ----------------------------\n")
 
 module.exports = {
     entry: {
-        'open-modal': './examples/open-modal'
+        'open-modal': './examples/open-modal',
+        'insertnode': './examples/insertnode'
     },
     output: {
         path: path.join(__dirname, "dist"),
