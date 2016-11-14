@@ -21,7 +21,8 @@ console.log(" ----------------------------\n")
 module.exports = {
     entry: {
         'open-modal': './examples/open-modal',
-        'insertnode': './examples/insertnode'
+        'insertnode': './examples/insertnode',
+        'youtubeembed': './examples/se.infomaker.youtubeembed',
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -33,6 +34,7 @@ module.exports = {
       compress: false,
       port: 5002
     },
+    devtool: 'source-map',
     externals: {
         writer: 'writer',
         substance: 'substance'
